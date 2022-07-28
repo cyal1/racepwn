@@ -1,7 +1,7 @@
 package race
 
 /*
-#cgo LDFLAGS: -L${SRCDIR}/../../build/lib/ -lracestatic -levent -levent_openssl -lssl -lcrypto
+#cgo LDFLAGS: -L/opt/homebrew/opt/openssl@3/lib -L${SRCDIR}/../../build/lib/ -L/opt/homebrew/Cellar/libevent/2.1.12/lib -lracestatic -levent -levent_openssl -lssl -lcrypto
 #include "../../lib/include/race.h"
 #include "../../lib/include/race_raw.h"
 #include "../../lib/include/race_status.h"
